@@ -1,6 +1,6 @@
 # Music Beats Visualizer  
 
-https://youtu.be/Z6_ZOeCxiik
+<iframe width="1920" height="778" src="https://www.youtube.com/embed/Z6_ZOeCxiik" title="AndyPi Music Beats Spectrum Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Music Beats Visualizer is an Arduino controlled spectrum analyzer, which lets you visualize sounds according to their frequency. The input is an electret microphone, and the output is 6x WS2801 RGB LEDs. The lights change colour depending on the amplitude of the input to the microphone (silent = blue, loud = red), but only the LED corresponding to a particular band of frequencies changes. So someone singing at a high frequency would alter the top most LED, and a low note from a bass guitar or drum would affect the bottom most one. Some people call these graphic equalizers, although that’s technically the opposite way round (controls used to change the output of the sound).  
 
@@ -11,9 +11,9 @@ For this project I used the battery and charging circuit from an broken electric
 
 The Fritzing diagram below shows how to connect the Arduino to the microphone and strip of WS2801 pixels. Once the +5v and GND have been connected for all the components, the only other connections are: electrec mic output to Arduino A0; WS2801 data pin to Arduino D13; WS2801 clock pin to Arduino D11.  
 
-https://andypi.co.uk/wp-content/uploads/2015/11/backwithchrager-768x576.jpg
+![image](https://andypi.co.uk/wp-content/uploads/2015/11/backwithchrager-768x576.jpg)
 
-https://andypi.co.uk/wp-content/uploads/2015/11/MusicSpectrumCircuit_schem-768x608.png
+![image](https://andypi.co.uk/wp-content/uploads/2015/11/MusicSpectrumCircuit_schem-768x608.png)
 
 # Components:  
 
