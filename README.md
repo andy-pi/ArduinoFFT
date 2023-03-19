@@ -6,7 +6,6 @@ Music Beats Visualizer is an Arduino controlled spectrum analyzer, which lets yo
 
 For this project I used the battery and charging circuit from an broken electric hair clipper, with a 2.4v output, and connected this to a voltage converter to output 5v to the Arduino. This means it can be plugged into to recharge, and use the 2xAA cells which are small enough to fit into the box. But you could just power it from a 5v supply.  
 
- 
 # The Circuit  
 
 The Fritzing diagram below shows how to connect the Arduino to the microphone and strip of WS2801 pixels. Once the +5v and GND have been connected for all the components, the only other connections are: electrec mic output to Arduino A0; WS2801 data pin to Arduino D13; WS2801 clock pin to Arduino D11.  
@@ -29,7 +28,7 @@ Sugru (to hold some of the components in place
 
 # The Arduino code  
 
-The code (download here) comprises of two main parts (you’ll need to download these libraries and place them in your arduino folder):  
+The code comprises of two main parts (you’ll need to download these libraries and place them in your arduino folder):  
 
 a) The Adafruit_WS2801 library which allows us to simply control the WS2801 pixels. (we can’t use the FastLED library for this project, since it interferes with the FHT library)  
 
@@ -49,5 +48,5 @@ And all that happens multiple times a second!
 
 Check out these other examples doing a similar thing:  
 
-http://www.gregington.com/2013/10/disco-skirt.html
-http://mcclanahoochie.com/blog/portfolio/music-visualization-with-an-arduino/
+http://www.gregington.com/2013/10/disco-skirt.html  
+http://mcclanahoochie.com/blog/portfolio/music-visualization-with-an-arduino/  
